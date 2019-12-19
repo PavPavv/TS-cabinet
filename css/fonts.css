@@ -1,0 +1,80 @@
+/* Roboto */
+@font-face {
+  font-family: 'Roboto_Black';
+  src:  url("../css/fonts/fonts/Roboto/Roboto-Black.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal; 
+}
+@font-face {
+  font-family: 'Roboto_BlackItalic';
+  src:  url("../css/fonts/fonts/Roboto/Roboto-BlackItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic; 
+}
+@font-face {
+  font-family: 'Roboto_Bold';
+  src:  url("../css/fonts/fonts/Roboto/Roboto-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal; 
+}
+@font-face {
+  font-family: 'Roboto_BoldItalic';
+  src:  url("../css/fonts/fonts/Roboto/Roboto-BoldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic; 
+}
+@font-face {
+  font-family: 'Roboto_Italic';
+  src:  url("../css/fonts/fonts/Roboto/Roboto-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic; 
+}
+@font-face {
+  font-family: 'Roboto_Light';
+  src:  url("../css/fonts/fonts/Roboto/Roboto-Light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; 
+}
+@font-face {
+  font-family: 'Roboto-LightItalic';
+  src:  url("../css/fonts/fonts/Roboto/Roboto-LightItalic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic; 
+}
+@font-face {
+  font-family: 'Roboto_Medium';
+  src:  url("../css/fonts/fonts/Roboto/Roboto-Medium.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; 
+}
+@font-face {
+  font-family: 'Roboto_MediumItalic';
+  src:  url("../css/fonts/fonts/Roboto/Roboto-MediumItalic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic; 
+}
+@font-face {
+  font-family: 'Roboto_Regular';
+  src:  url("../css/fonts/fonts/Roboto/Roboto-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; 
+}
+@font-face {
+  font-family: 'Roboto_Thin';
+  src:  url("../css/fonts/fonts/Roboto//Roboto-Thin.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; 
+}
+@font-face {
+  font-family: 'Roboto_ThinItalic';
+  src:  url("../css/fonts/fonts/Roboto/Roboto-ThinItalic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; 
+}
+/* TradeGothicProCyr */
+@font-face {
+  font-family: 'tradegothicprocyr-bdcn20';
+  src:  url("../css/fonts/fonts/TradeGothicProCyr/tradegothicprocyr-bdcn20.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; 
+}
