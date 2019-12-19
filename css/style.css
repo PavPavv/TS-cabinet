@@ -102,7 +102,7 @@ header .container{
 .cartIc{
     width: 1.875vw;
     height: 1.875vw;
-    margin-right: 10px;
+    margin-right: 10px; 
     background: url('../i/icon/ico_cart.png') center center no-repeat;
     background-size: contain;
 }
@@ -127,7 +127,7 @@ header .container{
     width: 1.975vw;
     height: 1.975vw;
     margin-right: 12px;
-    background: url('../i/icon/ico_profile.png') center center no-repeat;
+    background: url('../i/icon/ico_profile1.svg') center center no-repeat;
     background-size: contain;
 }
 .clientInfo{
@@ -235,7 +235,7 @@ table tr th{
     font-weight: normal;
     color: #ffffff;
     background: #1F2229;
-    padding: 20px 10px 20px 6px;
+    padding: 0.7vw 0.5vw 0.7vw 0.26vw;
 }
 table tr td{
     font-size: 0.785em;
@@ -275,6 +275,7 @@ table tr td:last-child {
     margin-bottom: 3px;
     background: #8CC63F;
     border-radius: 16px;
+    cursor: pointer;
 }
 .active:after{
     z-index: 2;
@@ -295,7 +296,8 @@ table tr td:last-child {
     height: 20px;
     margin-bottom: 3px;
     background: #B3B3B3;
-    border-radius: 16px; 
+    border-radius: 16px;
+    cursor: pointer; 
 }
 .non_active:after{
     z-index: 2;
@@ -317,6 +319,7 @@ table tr td:last-child {
     margin-bottom: 3px;
     background: #E5CD1A;
     border-radius: 16px;
+    cursor: pointer;
 }
 .controlled:after{
     z-index: 2;
@@ -338,7 +341,8 @@ table tr td:last-child {
     height: 20px;
     margin-bottom: 3px;
     background: #D1D1D1;
-    border-radius: 16px; 
+    border-radius: 16px;
+    cursor: pointer; 
 }
 .turnedOff:after{
     z-index: 2;
@@ -550,6 +554,23 @@ table tr th:after {
     .agents table tr td:nth-child(2) a{
         font-size: 0.7em;
     }
+    .active, 
+    .non_active,
+    .controlled,
+    .turnedOff{
+        width: 30px;
+        height: 15px;
+        margin-bottom: 3px;
+    }
+    .active:after, 
+    .non_active:after,
+    .controlled:after,
+    .turnedOff:after{
+        top: 2.25px;
+        right: 4px;
+        width: 10px;
+        height: 10px;
+    }
 }
 @media(max-width: 910px) {
     /* .container{
@@ -560,5 +581,28 @@ table tr th:after {
     }
     .logo img{
         max-width: 40%;
+    }
+    .cartIc{
+        cursor: pointer;
+    }
+    .cartInfo div{
+        display: none;
+    }
+    .client{
+        margin-right: 0;
+    }
+    .clientIc{
+        cursor: pointer;
+    }
+    .clientInfo{
+        display: none;
+    }
+}
+@media(max-width: 710px) {
+    body{
+        font-size: 10px;
+    }
+    .logo img{
+        max-width: 30%;
     }
 }
