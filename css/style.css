@@ -515,7 +515,7 @@ table tr th:after {
     font-size: 0.785em;
     line-height: 2em;
 }
-/* for users.html */
+/* for users.html **/
 .users table tbody tr:hover td:nth-child(odd){ 
     background: #D1D5D8;
 }
