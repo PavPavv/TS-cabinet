@@ -21,6 +21,7 @@ const notification = () => {
 
     closeModal.addEventListener('click', function() {
         modal.classList.remove('activeModal');
+        wrapper.classList.remove('fullHeight');
     });
 };
 
