@@ -7,7 +7,6 @@ body{
 }
 body{
     position: relative;
-    height: 100%;
     font-family: 'Roboto_Regular';
     font-size: 16px;
     background: #F7F9F9; 
@@ -60,7 +59,10 @@ button{
 }
 .wrapper{
     position: relative;
-    width: 100%;
+    /* height: 100vh; */
+}
+.fullHeight{
+    height: 100vh;
 }
 .container{
     position: relative;
@@ -449,7 +451,6 @@ table tr td:last-child {
 .tableWrap{
     margin: 0;
     overflow-x: auto;
-        margin-bottom: 40px;
 }
 .tableWrap::-webkit-scrollbar{
   width: 10px;
@@ -601,12 +602,15 @@ table tr th:after {
     height: 27.9687vw;
     z-index: 7;
     position: absolute;
-    top: 35%;
+    top: 50%;
     left: 50%;
     /* padding: 3.125vw 3.125vw 2.625vw 3.125vw; */
     background: #F0F0F0;
     border-radius: 4px;
     transform: translate(-50%,-50%);
+}
+.index{
+    top: 34%;
 }
 .headerModal{
     display: flex;
@@ -646,23 +650,25 @@ table tr th:after {
     height: 23.95vw;
     padding: 0.5vw 1vw;
     overflow-y: auto;
+    background: #F0F0F0;
 }
 .notify{
-    padding: 0.5vw 0;
     font-size: 0.785em;
     color: #797A7D;
     border-bottom: 1px solid #B3B3B3;
+    padding-bottom: 10px;
 }
 .notify a{
     text-decoration: underline;
     color: #4E7FB9;
 }
 .notify div:last-child{
-    padding-left: 1.5vw;
+    padding-left: 25px;
 }
 .date{
     padding-left: 0.5vw;
-    padding-bottom: 0.5vw;
+    padding-top: 10px;
+    padding-bottom: 10px;
     font-size: 0.7em;
     font-style: italic;
     color: #B3B3B3;
@@ -681,7 +687,8 @@ table tr th:after {
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    background: gray;
+    background: url('../i/icon/ico_note.svg') center center no-repeat;
+    background-size: contain;
 }
 .profitable:before{
     content: '';
@@ -692,7 +699,8 @@ table tr th:after {
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    background: orange;
+    background: url(../i/icon/ico_profitable.svg) center center no-repeat;
+    background-size: contain;
 }
 .attention:before{
     content: '';
@@ -703,7 +711,8 @@ table tr th:after {
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    background: blue;
+    background: url('../i/icon/ico_attention.svg') center center no-repeat;
+    background-size: contain;
 }
 .notifyWrap::-webkit-scrollbar{
   width: 18px;
@@ -802,9 +811,9 @@ table tr th:after {
     .cartIc{
         cursor: pointer;
     }
-    .cartInfo div{
+    /* .cartInfo div{
         display: none;
-    }
+    } */
     .client{
         margin-right: 0;
     }
@@ -813,6 +822,16 @@ table tr th:after {
     }
     .clientInfo{
         display: none;
+    }
+    .date{
+        font-size: 11px;
+    }
+    .notify{
+        font-size: 12px;
+    }
+    .table button{
+        padding: 2px 17px;
+        font-size: 10px;
     }
 }
 @media(max-width: 710px) {
@@ -828,5 +847,56 @@ table tr th:after {
     .cartIc{
         min-width: 28px;
         min-height: 28px;
+    }
+    .date{
+        font-size: 10px;
+    }
+    .notify{
+        font-size: 11px;
+    }
+    .closeModal {
+        width: 14px!important;
+        height: 14px;
+        background: url(../i/icon/closeModal.svg) center center no-repeat;
+        cursor: pointer;
+    }
+}
+@media(max-width: 640px) {
+    .modalWrap {
+        width: 100%;
+        height: 87.9687vw;
+        z-index: 7;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        /* padding: 3.125vw 3.125vw 2.625vw 3.125vw; */
+        background: #F0F0F0;
+        border-radius: 4px;
+        transform: translate(-50%,-50%);
+    }
+    .index{
+        top: 24%;
+    }
+    .notifyWrap{
+        height: 83.95vw;
+    }
+}
+@media(max-width: 480px) {
+    .notifyWrap::-webkit-scrollbar{
+        width: 8px;
+        border-radius: 20px;
+    }
+    .notifyWrap::-webkit-scrollbar-thumb{
+        width: 17px;
+        background: #E6E6E6;
+        border: 3px solid #B3B3B3;
+        border-radius: 16px;
+    }
+    .cartIc{
+        display: none;
+    }
+    .table button{
+        padding: 2px 14px;
+        font-size: 8px;
     }
 }
