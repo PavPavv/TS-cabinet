@@ -516,6 +516,18 @@ table tr th:after {
     line-height: 2em;
 }
 /* for users.html */
+.users table tbody tr:hover td:nth-child(odd){ 
+    background: #D1D5D8;
+}
+.users table tbody tr:hover td:nth-child(even){ 
+    background: #C1CAD1;
+}
+.users1 table tbody tr:hover td:nth-child(odd){ 
+    background: #D1D5D8;
+}
+.users1 table tbody tr:hover td:nth-child(even){ 
+    background: #C1CAD1;
+}
 .users table tr td:nth-child(2) a{
     text-transform: uppercase;
     text-decoration: underline;
