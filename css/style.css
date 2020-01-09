@@ -515,6 +515,32 @@ table tr th:after {
     font-size: 0.785em;
     line-height: 2em;
 }
+.agents table tbody tr:hover td:nth-child(odd){ 
+    background: #D1D5D8;
+}
+.agents table tbody tr:hover td:nth-child(even){ 
+    background: #C1CAD1;
+}
+.agents1 table tbody tr:hover td:nth-child(odd){ 
+    background: #D1D5D8;
+}
+.agents1 table tbody tr:hover td:nth-child(even){ 
+    background: #C1CAD1;
+}
+
+#table tbody tr:hover td:nth-child(odd){
+    background: #D1D5D8;
+}
+#table tbody tr:hover td:nth-child(even){ 
+    background: #C1CAD1;
+}
+#table tbody tr:hover td:nth-child(odd){ 
+    background: #D1D5D8;
+}
+#table tbody tr:hover td:nth-child(even){ 
+    background: #C1CAD1;
+}
+
 /* for users.html **/
 .users table tbody tr:hover td:nth-child(odd){ 
     background: #D1D5D8;
@@ -535,7 +561,7 @@ table tr th:after {
     color: #4E7FB9;
 }
 .users table tr td:nth-child(3){
-    padding-left: 0;
+    padding-left: 5px;
 }
 .users table tr td:nth-child(5){
     padding-left: 0;
