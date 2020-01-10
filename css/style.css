@@ -1035,6 +1035,47 @@ table tr th:after {
     .container{
         width: 96%;
     }
+    .access{
+        top: 5vw;
+        left: -1.5vw;
+        width: 8vw;
+    }
+    .IDpartner{
+        padding-top: 0.5vw;
+        top: 5vw;
+        left: 7vw;
+        width: 8.5vw;
+    }
+    .partnerName{
+        padding-top: 0.5vw;
+        top: 5vw;
+        left: 18vw;
+        width: 12.5vw;
+    }
+    .registrationDate{
+        padding-top: 0.5vw;
+        top: 5vw;
+        left: 32vw;
+        width: 11.5vw;
+    }
+    .source{
+        padding-top: 0.5vw;
+        top: 5vw;
+        left: 45vw;
+        width: 11.5vw;
+    }
+    .status{
+        padding-top: 0.5vw;
+        top: 5vw;
+        left: 60vw;
+        width: 12.5vw;
+    }
+    .usersOpt{
+        padding-top: 0.5vw;
+        top: 5vw;
+        left: 85vw;
+        width: 10.5vw;
+    }
 }
 @media(max-width: 1270px) {
     .notifyNum{
