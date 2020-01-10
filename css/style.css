@@ -528,6 +528,244 @@ table tr th:after {
     background: #C1CAD1;
 }
 
+
+#table th{
+    position: relative;
+}
+.options{
+    z-index: 6;
+    position: absolute;
+    display: none;
+    border-radius: 2px;
+    background:#ffffff;
+    box-shadow: 0px 2px 5px 1px rgba(0,0,0,.3);
+}
+.showOptions{
+    display: block;
+}
+.access input,
+.IDpartner input,
+.partnerName input,
+.registrationDate input,
+.input{
+    height: 20px;
+    box-shadow: inset 0px 3px 4px 1px rgba(204,204,204,.3);
+}
+.access{
+    top: 4vw;
+    left: -2.5vw;
+    width: 8vw;
+}
+.IDpartner{
+    padding-top: 0.5vw;
+    top: 4vw;
+    left: 6vw;
+    width: 7.5vw;
+}
+.IDpartner input{
+    position: relative;
+    width: 5.8vw;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    padding: 3px 3px 2px 5px;
+    border: none;
+    border: 1px solid #cccccc;
+    border-radius: 2px;
+    background: url('../i/icon/ico_search.svg') right 5px center no-repeat;
+    background-size: 10px;
+    cursor: default;
+}
+.IDpartner input::placeholder{
+    color: #cccccc;
+}
+.partnerName{
+    padding-top: 0.5vw;
+    top: 4vw;
+    left: 14vw;
+    width: 12.5vw;
+}
+.partnerName input{
+    position: relative;
+    width: 10.8vw;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    padding: 3px 3px 2px 5px;
+    border: none;
+    border: 1px solid #cccccc;
+    border-radius: 2px;
+    background: url('../i/icon/ico_search.svg') right 5px center no-repeat;
+    background-size: 10px;
+    cursor: default;
+}
+.partnerName input::placeholder{
+    color: #cccccc;
+}
+.partnerName .option{
+    position: relative;
+    padding-left: 35px;
+}
+.partnerName .option:before{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 5px;
+    left: 20px;
+    width: 10px;
+    height: 10px;
+    background: url('../i/icon/ico_arrow_option.svg') center center no-repeat;
+    background-size: 20px;
+}
+.registrationDate{
+    padding-top: 0.5vw;
+    top: 4vw;
+    left: 23vw;
+    width: 9.5vw;
+}
+.registrationDate input{
+    padding: 3px 3px 2px 5px;
+    border: none;
+    border: 1px solid #cccccc;
+    border-radius: 2px;
+}
+.registrationDate .option{
+    position: relative;
+    padding-left: 35px;
+}
+.registrationDate .option:before{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 5px;
+    left: 20px;
+    width: 10px;
+    height: 10px;
+    background: url('../i/icon/ico_arrow_option.svg') center center no-repeat;
+    background-size: 20px;
+}
+.registrationDate input::placeholder{
+    color: #cccccc;
+    font-size: 0.7em;
+}
+.period{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.period input{
+    width: 3.5vw;
+}
+.period div{
+    margin: 0 2px;
+    width: 10px;
+    height: 2px;
+    background: #cccccc;
+}
+.source{
+    padding-top: 0.5vw;
+    top: 4vw;
+    left: 33vw;
+    width: 9.5vw;
+}
+.input{
+    width: 8vw;
+    padding: 3px 3px 2px 5px;
+    border: none;
+    border: 1px solid #cccccc;
+    border-radius: 2px;
+}
+.source input::placeholder{
+    color: #cccccc;
+    text-transform: uppercase;
+}
+.input{
+    margin-left: 20px;
+}
+.source .option{
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+}
+.group{
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+}
+.filterIc{
+    display: block;
+    width: 10px;
+    height: 10px;
+    background: url('../i/icon/ico_option_check.svg') center center no-repeat;
+    background-size: contain;
+    margin-top: 5px;
+    margin-right: 0.5vw;
+}
+.status{
+    padding-top: 0.5vw;
+    top: 4vw;
+    left: 44vw;
+    width: 9.5vw;
+}
+.status .option{
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+}
+.status input::placeholder{
+    color: #cccccc;
+    text-transform: uppercase;
+}
+.usersOpt{
+    padding-top: 0.5vw;
+    top: 4vw;
+    left: 59vw;
+    width: 9.5vw;
+}
+.usersOpt .option{
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+}
+.usersOpt input::placeholder{
+    color: #cccccc;
+}
+.usersOpt input{
+    padding: 3px 3px 2px 5px;
+    border: none;
+    border: 1px solid #cccccc;
+    border-radius: 2px;
+}
+.title{
+    margin-top: 3px;
+    padding: 3px 20px;
+    text-transform: uppercase;
+    font-size: 0.6em;
+    font-family: 'Roboto_Bold';
+}
+.option{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 0.7em;
+    font-family: 'Roboto_MediumItalic';
+    color: #9DA6B8;
+    padding: 3px 5px 3px 20px;
+}
+.option:hover{
+    color: #000;
+    background: #E6E9EB;
+    cursor: pointer;
+}
+.option:hover .close{
+    display: block;
+}
+.close{
+    display: none;
+    width: 7px;
+    height: 7px;
+    margin-left: 10px;
+    background: url('../i/icon/close.svg') center center no-repeat;
+}
 #table tbody tr:hover td:nth-child(odd){
     background: #D1D5D8;
 }
